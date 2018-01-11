@@ -7,12 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.jdev.countryutil.Constants;
 import com.jdev.countryutil.CountriesActivity;
 import com.jdev.countryutil.Country;
 
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,12 +32,6 @@ public class MainActivity extends AppCompatActivity {
         mTvCountryDialCode = (TextView) findViewById(R.id.tv_country_isd);
         mBtnPickCountry = (Button) findViewById(R.id.btn_select_country);
         mIvCountryFlag = (ImageView) findViewById(R.id.iv_country_flag);
-
-        ArrayList<Country> countriesList = new ArrayList<>();
-        for (Country c : Country.getAllCountries()) {
-            countriesList.add(c);
-        }
-
     }
 
     private void getUserCountryInfo() {

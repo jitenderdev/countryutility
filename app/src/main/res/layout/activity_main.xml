@@ -6,12 +6,15 @@
 
 
     <android.support.v7.widget.AppCompatButton
+        android:layout_marginTop="10dp"
         android:id="@+id/btn_select_country"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/select_country" />
 
     <LinearLayout
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_select_country"
@@ -32,10 +35,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                tools:text="Selected Country Name" />
+                tools:text="" />
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -50,10 +54,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                tools:text="Selected Country ISO Code" />
+                tools:text="" />
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -68,10 +73,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                tools:text="Selected Country Dial Code" />
+                tools:text="" />
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
