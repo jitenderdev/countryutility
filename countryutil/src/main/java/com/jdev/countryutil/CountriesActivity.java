@@ -20,15 +20,21 @@ public class CountriesActivity extends AppCompatActivity {
     ListView mLvCountries;
     ArrayList<Country> mCountriesList = new ArrayList<Country>();
     Toolbar mToolbar;
+    String mTitle = "";
 
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_countries);
+        getInputData();
         setUpLayout();
         setUpToolbar();
         setDataInViewObjects();
+    }
+
+    private void getInputData() {
+        mTitle = getIntent().getStringExtra(Constants.KEY_TITLE);
     }
 
     private void setDataInViewObjects() {
@@ -55,21 +61,21 @@ public class CountriesActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                    Country country = mCountriesList.get(position);
-                    //
-                    Intent intent = new Intent();
-                    String countryName = country.getName();
-                    String countryCode = country.getCode();
-                    String countryDialCode = country.getDialCode();
-                    int countryFlag = country.getFlag();
-                    //
-                    intent.putExtra(Constants.KEY_COUNTRY_NAME, countryName);
-                    intent.putExtra(Constants.KEY_COUNTRY_ISO_CODE, countryCode);
-                    intent.putExtra(Constants.KEY_COUNTRY_ISD_CODE, countryDialCode);
-                    intent.putExtra(Constants.KEY_COUNTRY_FLAG, countryFlag);
-                    setResult(Constants.KEY_RESULT_CODE, intent);
-                    //
-                    finish();
+                Country country = mCountriesList.get(position);
+                //
+                Intent intent = new Intent();
+                String countryName = country.getName();
+                String countryCode = country.getCode();
+                String countryDialCode = country.getDialCode();
+                int countryFlag = country.getFlag();
+                //
+                intent.putExtra(Constants.KEY_COUNTRY_NAME, countryName);
+                intent.putExtra(Constants.KEY_COUNTRY_ISO_CODE, countryCode);
+                intent.putExtra(Constants.KEY_COUNTRY_ISD_CODE, countryDialCode);
+                intent.putExtra(Constants.KEY_COUNTRY_FLAG, countryFlag);
+                setResult(Constants.KEY_RESULT_CODE, intent);
+                //
+                finish();
 
             }
         });
@@ -81,7 +87,10 @@ public class CountriesActivity extends AppCompatActivity {
             mToolbar = (Toolbar) findViewById(R.id.toolbar);
             setSupportActionBar(mToolbar);
             if (getSupportActionBar() != null) {
-                getSupportActionBar().setTitle(R.string.all_countries);
+                if (mTitle == null || mTitle.isEmpty())
+                    getSupportActionBar().setTitle(R.string.all_countries);
+                else
+                    getSupportActionBar().setTitle(mTitle);
             }
             mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
                 @Override

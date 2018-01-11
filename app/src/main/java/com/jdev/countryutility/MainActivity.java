@@ -10,6 +10,7 @@ import android.widget.TextView;
 import com.jdev.countryutil.Constants;
 import com.jdev.countryutil.CountriesActivity;
 import com.jdev.countryutil.Country;
+import com.jdev.countryutil.CountryUtil;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setUpLayout();
         setDataInViewObjects();
+
     }
 
     private void setUpLayout() {
@@ -48,8 +50,7 @@ public class MainActivity extends AppCompatActivity {
         mBtnPickCountry.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CountriesActivity.class);
-                startActivityForResult(intent, Constants.KEY_RESULT_CODE);
+                new CountryUtil(MainActivity.this).setTitle("").build();
             }
         });
         getUserCountryInfo();
