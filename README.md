@@ -6,10 +6,10 @@ Countryutility is a simple library that enables you to pick a country while sign
 
 See the example to see more detail.
 
-![](https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/1.jpg)
-![](https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/2.jpg)
-![](https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/3.jpg)
-![](https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/4.jpg)
+![](https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/1.png)
+![](https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/2.png)
+![](https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/3.png)
+![](https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/4.png)
 
 ## How to use
 
