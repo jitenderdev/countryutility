@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CountryUtility</string>
+    <string name="select_country">Select Country</string>
+</resources>

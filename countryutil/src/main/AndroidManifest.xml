@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jdev.countryutil" >
+
+
+    <application >
+        <activity
+            android:name=".CountriesActivity"
+            android:theme="@style/NoActionBarTheme" />
+    </application>
+
+</manifest>
