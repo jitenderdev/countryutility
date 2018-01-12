@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-
-    <!-- Country Util-->
+    <!-- Country Util -->
     <color name="countryColorPrimary">#0FBA0A</color>
     <color name="countryColorPrimaryDark">#41890B</color>
     <color name="countryColorAccent">#0B1A89</color>
+
 </resources>
