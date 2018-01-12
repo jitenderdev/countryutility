@@ -9,16 +9,16 @@ See the example to see more detail.
 <table align="center">
     <tr>
         <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/1.png" height="400" height="500"/>
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/1.png" height="300" height="500"/>
         </td>
         <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/2.png" height="400" />
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/2.png" height="400" height="500" />
         </td>
          <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/3.png" height="400" />
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/3.png" height="400" height="500" />
         </td>
         <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/4.png" height="400" />
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/4.png" height="400" height="500" />
         </td>
     </tr>
 </table>
