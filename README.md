@@ -12,7 +12,13 @@ See the example to see more detail.
             <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/1.png" height="400" />
         </td>
         <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/2.png" width="400" />
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/2.png" height="400" />
+        </td>
+         <td>
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/3.png" height="400" />
+        </td>
+        <td>
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/4.png" height="400" />
         </td>
     </tr>
 </table>
