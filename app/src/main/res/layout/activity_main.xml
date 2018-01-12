@@ -47,7 +47,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Country ISO Code" />
+                android:text="ISO Code" />
 
             <android.support.v7.widget.AppCompatTextView
                 android:id="@+id/tv_country_iso"
@@ -66,7 +66,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Country Dial Code" />
+                android:text="ISD Code" />
 
             <android.support.v7.widget.AppCompatTextView
                 android:id="@+id/tv_country_isd"
@@ -85,7 +85,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Country Flag" />
+                android:text="Flag" />
 
             <LinearLayout
                 android:layout_width="0dp"
