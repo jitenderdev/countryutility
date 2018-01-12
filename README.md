@@ -35,7 +35,7 @@ dependencies {
         compile 'com.github.jitenderdev:countryutility:v1.0'
 }
 
-Step 3\. Customize your theme. Add below colors in your colors.xml
+Step 3\ Customize your theme. Add below colors in your colors.xml
 
    <!-- Country Util -->
     <color name="countryColorPrimary">#0FBA0A</color>
