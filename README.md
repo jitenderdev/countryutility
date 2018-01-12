@@ -9,7 +9,7 @@ See the example to see more detail.
 <table align="center">
     <tr>
         <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/1.png" height="300" height="500"/>
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/1.png" height="400" height="500"/>
         </td>
         <td>
             <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/2.png" height="400" height="500" />
@@ -25,10 +25,6 @@ See the example to see more detail.
       </tr>
 </table>
 
-![](https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/1.png)
-![](https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/2.png)
-![](https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/3.png)
-![](https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/4.png)
 
 ## How to use
 
