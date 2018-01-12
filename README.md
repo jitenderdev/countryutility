@@ -14,13 +14,15 @@ See the example to see more detail.
         <td>
             <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/2.png" height="400" height="500" />
         </td>
+          <tr>
          <td>
             <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/3.png" height="400" height="500" />
         </td>
         <td>
             <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/4.png" height="400" height="500" />
         </td>
-    </tr>
+          </tr>
+      </tr>
 </table>
 
 ![](https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/1.png)
