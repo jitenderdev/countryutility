@@ -12,7 +12,7 @@ It provides you with the available countries across the globe with thier basic i
 
 ### A quick overview of what's in it 
 - **the easiest possible integration**
-- integrate in less than **5 minutes**
+- integrate in less than **2 minutes**
 - compatible down to **API Level 15**
 - get you **Database of all Countries**
 - get you the **Country Flag**
