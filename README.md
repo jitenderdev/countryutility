@@ -2,7 +2,7 @@
 # Country Utility 
 
 
-> Does your application **needs user's country information**? Do you want to have information of all countries **up and running in less than 5 minutes**? Do you want to pick user's **ISO Code**?
+> Does your application **needs user's country information**? Do you want to have information of all countries **up and running in less than 2 minutes**? Do you want to pick user's **ISO Code**?
 Do you want to pick user's **ISD Code**? Do you want to have user's **Flag of Country**?
 
 If any (or all) of these questions seem familiar, the **Country Utility** is the perfect library for you all.
