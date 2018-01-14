@@ -81,7 +81,28 @@ new CountryUtil(this).setTitle("Select Country").build();
 new CountryUtil(this).build();
 ```
 
+
+## 3. Get your picked country information in 'onActivityResult'method
+```java
+  @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == Constants.KEY_RESULT_CODE) {
+            try {
+                mTvCountryName.setText(data.getStringExtra(Constants.KEY_COUNTRY_NAME));
+                mTvCountryIsoCode.setText(data.getStringExtra(Constants.KEY_COUNTRY_ISO_CODE));
+                mTvCountryDialCode.setText(data.getStringExtra(Constants.KEY_COUNTRY_ISD_CODE));
+                mIvCountryFlag.setImageResource(data.getIntExtra(Constants.KEY_COUNTRY_FLAG, 0));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+```
+
 Great. Your Country Utility Library is now ready to use.
+
 
 
 # Additional Setup
