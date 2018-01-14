@@ -47,13 +47,11 @@ See the example to see more detail.
 </table>
 
 
-## How to use
+# Setup
 
-### Integration
+## 1. Provide the gradle dependency
 
-Integrating the project is simple a refined all you need to do is follow the below steps
-
-Step 1\. Add the JitPack repository to your build file. Add it in your root build.gradle at the end of repositories:
+Step 1\. Add the JitPack repository to your projects's(root) build.gradle file at the end of repositories:
 
 ```java
 allprojects {
@@ -64,18 +62,40 @@ allprojects {
 }
 ```
 
-Step 2\. Add the dependency
+Step 2\. Add the dependency in your app's build.gradle file.
 
 ```java
 dependencies {
         compile 'com.github.jitenderdev:countryutility:v1.1'
 }
+```
 
 
-Step 3\. Customize your theme. Add below colors in your colors.xml
+## 2. Add your Country Utility
+```java
+new CountryUtil(this).setTitle("Select Country").build();
+```
+    You can keep the title empty the default title is 'All Countries'
+
+```java
+new CountryUtil(this).build();
+```
+
+Great. Your Country Utility Library is now ready to use.
+
+
+# Additional Setup
+## Add items and adding some functionality
+
+Customize your theme. Add below colors in your colors.xml
 
    <!-- Country Util -->
     <color name="countryColorPrimary">#0FBA0A</color>
     <color name="countryColorPrimaryDark">#41890B</color>
     <color name="countryColorAccent">#0B1A89</color>
+    
+Your activity will be custimized with above color theme.
+
+
+    
 
