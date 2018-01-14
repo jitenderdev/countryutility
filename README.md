@@ -1,4 +1,25 @@
 
+# Country Utility 
+
+
+> Does your application **needs user's country information**? Do you want to have information of all countries **up and running in less than 5 minutes**? Do you want to pick user's **ISO Code**?
+Do you want to pick user's **ISD Code**? Do you want to have user's **Flag of Country**?
+
+If any (or all) of these questions seem familiar, the **Country Utility** is the perfect library for you all.
+
+**Never** waste your time again string all countries information in yoor database.
+It provides you with the available countries across the globe with thier basic information required while signup with your application. Customizations are also available w.r.t. your application theme. It provide **custom colors**, **custom themes**, ... **No limits** for customizations.
+
+### A quick overview of what's in it 
+- **the easiest possible integration**
+- integrate in less than **5 minutes**
+- compatible down to **API Level 15**
+- get you **Database of all Countries**
+- get you the **Country Flag**
+- get you the **Country ISO Code**
+- get you the **Country ISD Code**
+
+
 # Beautiful Country Utility for Android
 
 
