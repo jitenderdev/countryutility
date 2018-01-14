@@ -75,7 +75,7 @@ dependencies {
 ```java
 new CountryUtil(this).setTitle("Select Country").build();
 ```
-    You can keep the title empty the default title is 'All Countries'
+ You can keep the title empty the default title is 'All Countries'
 
 ```java
 new CountryUtil(this).build();
@@ -85,7 +85,6 @@ Great. Your Country Utility Library is now ready to use.
 
 
 # Additional Setup
-## Add items and adding some functionality
 
 Customize your theme. Add below colors in your colors.xml
 
@@ -95,7 +94,5 @@ Customize your theme. Add below colors in your colors.xml
     <color name="countryColorAccent">#0B1A89</color>
     
 Your activity will be custimized with above color theme.
-
-
-    
+ 
 
