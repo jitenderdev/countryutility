@@ -25,25 +25,33 @@ It provides you with the available countries across the globe with thier basic i
 
 Countryutility is a simple library that enables you to pick a country while signing up or get the details of a country i.e Name, Flad, ISO Code and ISD code.
 
-See the example to see more detail.
+
+##  Screenshots
 
 <table align="center">
     <tr>
         <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/1.png" height="400" height="500"/>
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/0.100.png" height="400"                 height="500"/>
         </td>
         <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/2.png" height="400" height="500" />
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/1.png" height="400"                 height="500"/>
         </td>
-          <tr>
+        <td>
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/2.png" height="400"                 height="500" />
+        </td>
+    </tr>
+    <tr>
          <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/3.png" height="400" height="500" />
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/3.png" height="400"                 height="500" />
         </td>
         <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/4.png" height="400" height="500" />
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/4.png" height="400"                 height="500" />
         </td>
-          </tr>
-      </tr>
+         <td>
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/0.101.png" height="400"                 height="500" />
+        </td>
+    </tr>
+      
 </table>
 
 
@@ -115,5 +123,11 @@ Customize your theme. Add below colors in your colors.xml
     <color name="countryColorAccent">#0B1A89</color>
     
 Your activity will be custimized with above color theme.
+
+# YOUTUBE DEMO
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=45OxgQAo6y8
+" target="_blank"><img src="http://img.youtube.com/vi/45OxgQAo6y8/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
  
 
