@@ -25,25 +25,33 @@ It provides you with the available countries across the globe with thier basic i
 
 Countryutility is a simple library that enables you to pick a country while signing up or get the details of a country i.e Name, Flad, ISO Code and ISD code.
 
-See the example to see more detail.
+
+##  Screenshots
 
 <table align="center">
     <tr>
         <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/1.png" height="400" height="500"/>
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/0.100.png" height="400"                 height="500"/>
         </td>
         <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/2.png" height="400" height="500" />
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/1.png" height="400"                 height="500"/>
         </td>
-          <tr>
+        <td>
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/2.png" height="400"                 height="500" />
+        </td>
+    </tr>
+    <tr>
          <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/3.png" height="400" height="500" />
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/3.png" height="400"                 height="500" />
         </td>
         <td>
-            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/4.png" height="400" height="500" />
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/4.png" height="400"                 height="500" />
         </td>
-          </tr>
-      </tr>
+         <td>
+            <img src="https://raw.githubusercontent.com/jitenderdev/countryutility/master/screenshots/0.101.png" height="400"                 height="500" />
+        </td>
+    </tr>
+      
 </table>
 
 
