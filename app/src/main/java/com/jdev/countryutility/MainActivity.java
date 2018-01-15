@@ -15,8 +15,8 @@ import com.jdev.countryutil.CountryUtil;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView mTvCountryName, mTvCountryIsoCode, mTvCountryDialCode;
-    private ImageView mIvCountryFlag;
+    private TextView mTvCountryName, mTvCountryIsoCode, mTvCountryDialCode,mTvDefCountryName, mTvDefCountryIsoCode, mTvDefCountryDialCode;
+    private ImageView mIvCountryFlag,mIvDefCountryFlag;
     private Button mBtnPickCountry;
 
     @Override
@@ -32,17 +32,24 @@ public class MainActivity extends AppCompatActivity {
         mTvCountryName = (TextView) findViewById(R.id.tv_country_name);
         mTvCountryIsoCode = (TextView) findViewById(R.id.tv_country_iso);
         mTvCountryDialCode = (TextView) findViewById(R.id.tv_country_isd);
-        mBtnPickCountry = (Button) findViewById(R.id.btn_select_country);
         mIvCountryFlag = (ImageView) findViewById(R.id.iv_country_flag);
+        //
+        mTvDefCountryName = (TextView) findViewById(R.id.tv_def_country_name);
+        mTvDefCountryIsoCode = (TextView) findViewById(R.id.tv_def_country_iso);
+        mTvDefCountryDialCode = (TextView) findViewById(R.id.tv_def_country_isd);
+        mIvDefCountryFlag = (ImageView) findViewById(R.id.iv_def_country_flag);
+        //
+        mBtnPickCountry = (Button) findViewById(R.id.btn_select_country);
+
     }
 
     private void getUserCountryInfo() {
         Country country = Country.getCountryFromSIM(getApplicationContext());
         if (country != null) {
-            mIvCountryFlag.setImageResource(country.getFlag());
-            mTvCountryDialCode.setText(country.getDialCode());
-            mTvCountryIsoCode.setText(country.getCode());
-            mTvCountryName.setText(country.getName());
+            mIvDefCountryFlag.setImageResource(country.getFlag());
+            mTvDefCountryDialCode.setText(country.getDialCode());
+            mTvDefCountryIsoCode.setText(country.getCode());
+            mTvDefCountryName.setText(country.getName());
         }
     }
 

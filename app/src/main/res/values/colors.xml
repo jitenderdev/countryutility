@@ -5,8 +5,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <!-- Country Util -->
-    <color name="countryColorPrimary">#0FBA0A</color>
+ <!--   <color name="countryColorPrimary">#0FBA0A</color>
     <color name="countryColorPrimaryDark">#41890B</color>
-    <color name="countryColorAccent">#0B1A89</color>
+    <color name="countryColorAccent">#0B1A89</color>-->
 
 </resources>

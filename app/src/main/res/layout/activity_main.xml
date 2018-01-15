@@ -5,99 +5,254 @@
     android:layout_height="match_parent">
 
 
-    <android.support.v7.widget.AppCompatButton
-        android:layout_marginTop="10dp"
-        android:id="@+id/btn_select_country"
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv_def_country"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/select_country" />
-
-    <LinearLayout
-        android:layout_marginTop="10dp"
-        android:paddingLeft="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btn_select_country"
-        android:orientation="vertical">
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:elevation="16dp"
+        card_view:cardCornerRadius="4dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <android.support.v7.widget.AppCompatTextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Country Name" />
-
-            <android.support.v7.widget.AppCompatTextView
-                android:id="@+id/tv_country_name"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                tools:text="" />
-        </LinearLayout>
-
-        <LinearLayout
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <android.support.v7.widget.AppCompatTextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="ISO Code" />
-
-            <android.support.v7.widget.AppCompatTextView
-                android:id="@+id/tv_country_iso"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                tools:text="" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <android.support.v7.widget.AppCompatTextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="ISD Code" />
-
-            <android.support.v7.widget.AppCompatTextView
-                android:id="@+id/tv_country_isd"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                tools:text="" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <android.support.v7.widget.AppCompatTextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Flag" />
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
 
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-                <android.support.v7.widget.AppCompatImageView
-                    android:id="@+id/iv_country_flag"
-                    android:layout_width="wrap_content"
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    tools:src="@mipmap/ic_launcher" />
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimary"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:text="@string/def_country" />
+
+
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Country Name" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_def_country_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ISO Code" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_def_country_iso"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ISD Code" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_def_country_isd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Flag" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/iv_def_country_flag"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        tools:src="@mipmap/ic_launcher" />
+                </LinearLayout>
+            </LinearLayout>
+
+
         </LinearLayout>
-    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cv_def_country"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:elevation="16dp"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_select_country"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimary"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:text="@string/select_country" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Country Name" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_country_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ISO Code" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_country_iso"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ISD Code" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_country_isd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Flag" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/iv_country_flag"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        tools:src="@mipmap/ic_launcher" />
+                </LinearLayout>
+            </LinearLayout>
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_select_country"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/select_country"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
 </RelativeLayout>

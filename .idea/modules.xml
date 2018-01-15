@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/COUNTRY UTIL.iml" filepath="$PROJECT_DIR$/COUNTRY UTIL.iml" />
-      <module fileurl="file://$PROJECT_DIR$/COUNTRY UTIL.iml" filepath="$PROJECT_DIR$/COUNTRY UTIL.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/countryutil/countryutil.iml" filepath="$PROJECT_DIR$/countryutil/countryutil.iml" />
     </modules>
