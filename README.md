@@ -116,7 +116,7 @@ Customize your theme. Add below colors in your colors.xml
     
 Your activity will be custimized with above color theme.
 
-# DEMO
+# YOUTUBE DEMO
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=45OxgQAo6y8
 " target="_blank"><img src="http://img.youtube.com/vi/45OxgQAo6y8/0.jpg" 
