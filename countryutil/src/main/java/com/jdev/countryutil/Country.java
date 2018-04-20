@@ -362,9 +362,8 @@ public class Country {
     public static Country getCountryByName(String countryName) {
         // Because the data we have is sorted by ISO codes and not by names, we must check all
         // countries one by one
-
         for (Country c : COUNTRIES) {
-            if (countryName.equals(c.getName())) {
+            if (countryName.toLowerCase().equals(c.getName().toLowerCase())) {
                 return c;
             }
         }
